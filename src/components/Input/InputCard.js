@@ -43,21 +43,44 @@ export default function InputCard({ setOpen, listId, type }) {
             if (cardAdded) {
                 setCardTitle('')
             }
-            setOpen(false)
         }
         if (type === 'list') {
-            addMoreLists(cardTitle)
-            setCardTitle('')
-            setOpen(false)
-
+            let listAdded = false
+            if (cardTitle !== '') {
+                listAdded = addMoreLists(cardTitle)
+            }
+            if (listAdded) {
+                setCardTitle('')
+            }
         }
+        setOpen(false)
 
     }
 
-    // const handleBlur = () => {
-    //     // setCardTitle('')
-    //     setOpen(false)
-    // }
+    const handleBlur = () => {
+        if (cardTitle !== '') {
+            if (type === 'Card') {
+
+                let cardAdded = false
+                if (cardTitle !== '') {
+                    cardAdded = addMoreCards(cardTitle, listId)
+                }
+                if (cardAdded) {
+                    setCardTitle('')
+                }
+            }
+            if (type === 'list') {
+                let listAdded = false
+                if (cardTitle !== '') {
+                    listAdded = addMoreLists(cardTitle)
+                }
+                if (listAdded) {
+                    setCardTitle('')
+                }
+            }
+        }
+        setOpen(false)
+    }
 
     return (
         <div>
@@ -67,8 +90,7 @@ export default function InputCard({ setOpen, listId, type }) {
                         multiline
                         fullWidth
                         onChange={handleOnChange}
-                        // onBlur={handleBlur}
-                        onBlur={handleBtnConfirm}
+                        onBlur={handleBlur}
                         inputProps={{
                             className: classes.input,
                         }}

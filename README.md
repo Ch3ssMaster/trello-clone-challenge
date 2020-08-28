@@ -1,68 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# trello-clone-challenge
 
-## Available Scripts
+Minimized version of the Trello app [Trello](https://trello.com).
 
-In the project directory, you can run:
+This proyect corresponds to the third challenge of the GeekHubs Academy online front-end bootcamp.
 
-### `npm start`
+## Summary
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [trello-clone-challenge](#trello-clone-challenge)
+  - [Summary](#summary)
+  - [Built With](#built-with)
+    - [About the technologies used](#about-the-technologies-used)
+  - [How the website works](#how-the-website-works)
+  - [Versioning](#versioning)
+  - [Author](#author)
+  - [Copyright and license](#copyright-and-license)
+  - [Acknowledgments](#acknowledgments)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Built With
 
-### `npm test`
+| Tecnology                               | Description                                        |
+| --------------------------------------- | -------------------------------------------------- |
+| [MATERIAL-UI](https://material-ui.com/) | Used for most of components                        |
+| [React](https://reactjs.org/)           | A JavaScript library for building user interfaces. |
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### About the technologies used
 
-### `npm run build`
+I'm in favor of taking advantage of the resources that are already created, even taking into account the limits it generates in the creative side, so I decided to take advantage of every resource that Material UI offers, trying not to include more code to the proyect than strictly necessary.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How the website works
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+When you start the application, it starts by default with a `"To Do"` list, that includes a task: `"Learning React"`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can add new tasks by clicking on `"Add another Card"`, or a new list by clicking on the`"Add another list"` button.
 
-### `npm run eject`
+Once several lists and tasks have been created, the application allows you to exchange the order or list tasks. It also allows you to exchange the position of the lists.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Versioning
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`v1.0.0-alpha`
+The site use [SemVer](http://semver.org/) for versioning.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Author
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Antonio Cebrián Mesa** - _Informatics teacher, full stack developer_ -
 
-## Learn More
+- [My personal Website](http://clasesinformaticagranada.es/)
+- [Follow me on Twitter](https://twitter.com/hacking_the_web)
+- [For projects and classes](https://www.linkedin.com/in/antonio-cebri%C3%A1n-mesa)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Copyright and license
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Code and documentation copyright 2020 the [Author](https://www.linkedin.com/in/antonio-cebri%C3%A1n-mesa). Code released under the [MIT License](https://github.com/Ch3ssMaster/themoviedb_api/blob/master/LICENSE.md).
 
-### Code Splitting
+## Acknowledgments
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Always grateful to all those who freely share their knowledge through the internet (StackOverflow, youtubers, bloggers, etc)
