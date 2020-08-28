@@ -50,7 +50,7 @@ The site use [SemVer](http://semver.org/) for versioning.
 
 ## Copyright and license
 
-Code and documentation copyright 2020 the [Author](https://www.linkedin.com/in/antonio-cebri%C3%A1n-mesa). Code released under the [MIT License](https://github.com/Ch3ssMaster/themoviedb_api/blob/master/LICENSE.md).
+Code and documentation copyright 2020 the [Author](https://www.linkedin.com/in/antonio-cebri%C3%A1n-mesa). Code released under the [MIT License](https://github.com/Ch3ssMaster/trello-clone-challenge/blob/master/LICENSE.md).
 
 ## Acknowledgments
 
