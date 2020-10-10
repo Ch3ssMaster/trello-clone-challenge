@@ -1,6 +1,6 @@
 # trello-clone-challenge
 
-Minimized version of the Trello app [Trello](https://trello.com).
+Minimized version of the [Trello](https://trello.com) app .
 
 This proyect corresponds to the third challenge of the GeekHubs Academy online front-end bootcamp.
 
